@@ -35,16 +35,20 @@ The application uses Gradio for its user interface and OpenAI-compatible API cli
 
 
 ## Project Structure
-    llm-arena/
-        ├── src/
-        │   ├── arena.py
-        │   ├── model_clients.py
-        │   └── logging_config.py
-        ├── app.py
-        ├── .env.example
-        ├── .gitignore
-        ├── requirements.txt
-        └── README.md
+```text
+	llm-arena/
+		├── src/
+		│   ├── arena.py
+		│   ├── model_clients.py
+		│   └── logging_config.py
+		├── app.py
+		├── .env
+		├── .gitignore
+		├── app.log
+		├── LICENSE
+		├── README.md
+		└── requirements.txt
+```
 
 
 ## Module Responsibilities
